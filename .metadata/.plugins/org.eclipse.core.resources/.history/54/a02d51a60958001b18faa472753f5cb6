@@ -1,0 +1,37 @@
+package testcases;
+
+import org.testng.annotations.Test;
+
+import data.Session;
+import io.restassured.RestAssured;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+import static io.restassured.RestAssured.given;
+
+
+public class LoginReq {
+
+	
+	
+	@Test
+	
+	public void doLogin(){
+		
+		RestAssured.baseURI = "http://localhost:8080";
+		RestAssured.basePath = "Retail_App_Rest/retail/admin/login";
+		
+		Session s = new Session();
+		
+		s.setUsername("admin");
+		
+		s.setPassword("wlhizdom");
+		
+		Response resp = given().contentType(ContentType.JSON).log().body().when().body(s).post();
+		
+		resp.prettyPrint();
+		
+		
+		
+	}
+}

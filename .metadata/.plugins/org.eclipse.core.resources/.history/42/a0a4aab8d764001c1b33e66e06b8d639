@@ -1,0 +1,16 @@
+package zoho.teststeps;
+
+import io.cucumber.java.en.Given;
+
+public class Session {
+	
+	
+	@Given("I am logged in zoho.con")
+	
+	public void zohoLogin(){
+		
+	  }
+	
+	
+
+}

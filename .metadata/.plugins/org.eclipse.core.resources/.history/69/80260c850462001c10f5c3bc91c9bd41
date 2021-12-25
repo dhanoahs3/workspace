@@ -1,0 +1,24 @@
+package runner;
+
+import org.junit.runner.RunWith;
+import org.junit.runner.Runner;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+
+
+@CucumberOptions(
+		dryRun=false,
+		monochrome=true,
+		features= {"src/test/resources/"},
+		glue = {"search","select"},
+		plugin= {"html:target/site/cucumber-html"}
+		
+)
+
+public class MyRunner extends AbstractTestNGCucumberTests {
+	
+	
+		
+}

@@ -1,0 +1,22 @@
+package runner;
+
+import org.testng.annotations.Test;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+@CucumberOptions(
+		dryRun=false,
+		strict=true,
+		monochrome=true,
+		features= {"src/test/resources/"},
+		glue = {"search","select"},
+		plugin= {"html:target/site/cucumber-html"}
+		
+)
+
+public class MyRunner extends AbstractTestNGCucumberTests {
+	
+	
+		
+}

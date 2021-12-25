@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;DataDrivenProject2021/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;HybridFramework&apos;&#x0D;&#x0A;- Destination element: &apos;DataDrivenProject2021/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     prod.properties&#x0D;&#x0A;     env.properties&#x0D;&#x0A;     uat.properties" description="Copy files" destination="=DataDrivenProject2021/src\/main\/resources" element1="src/test/resources/prod.properties" element2="src/test/resources/env.properties" element3="src/test/resources/uat.properties" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1618577769515" units="0" version="1.0"/>
+</session>

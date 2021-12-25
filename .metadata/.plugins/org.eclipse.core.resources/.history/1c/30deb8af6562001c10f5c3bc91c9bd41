@@ -1,0 +1,19 @@
+Feature: Buy computer
+  I want to buy a computer
+
+   Background : Buying Dell PC
+   Given I want to buy  a PC
+   And PC should be of Dell
+  
+  @BuyDesktop
+  Scenario: Buying a desktop
+  And It should be a desktop
+  And Desktop can be blue,black,grey in color
+  
+   @BuyLaptop
+  Scenario: Buying a laptop
+  And It should be a laptop
+  And Laptop can be white in color
+ 
+  
+ 

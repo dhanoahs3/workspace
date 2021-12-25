@@ -1,0 +1,60 @@
+package search;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.But;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SearchingCar {
+
+	@Given("I go to buy car")
+	public void buy_car(){
+		System.out.println("I want to buy car");
+	}
+	
+	@And("Car must of Ford motors")
+	public void car_make(){
+		System.out.println("Car must of Ford motors");
+	}
+	
+	@And("Car must be white in color")
+	public void car_color(){
+		System.out.println("Car must be white in color");
+	}
+	
+	@When("I search for car")
+	public void search_car(){
+		System.out.println("I search for car");
+	}
+	
+	@And("I select city as tokyo")
+	public void select_city(){
+		System.out.println("And I select city as tokyo");
+	}
+	
+	@Then("I should get white cars in results")
+	public void result(){
+		System.out.println("I should get white cars in result");
+	}
+	
+   @And("Cars must be atleast 2 years old")
+   public void city_old(){
+	   System.out.println("Cars must be atleast 2 years old");
+   }
+   
+	@But("Cars should not be damaged")
+	public void damaged(){
+	System.out.println("Cars must be atleast 2 years old");
+	}
+	
+	
+	
+	
+	
+	 
+	
+	  
+	
+}
+

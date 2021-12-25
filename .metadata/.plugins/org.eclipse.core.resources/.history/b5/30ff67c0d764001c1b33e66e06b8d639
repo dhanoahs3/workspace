@@ -1,0 +1,31 @@
+package zoho.teststeps;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.When;
+
+public class Leads {
+	
+	@When("I go to {string} page")
+	 public void verifyLeadsPage(){
+	}
+	
+	@And("enter and submit lead details")
+		public void submitDetails(){
+	}
+	
+	@And("I verify leads details")
+		public void verifyDetails(){
+		
+	}
+	
+	@And("Leads should be present inside the grid")
+		public void verifyLeadCreation(){
+		
+	}
+	
+	
+	
+	
+	
+
+}

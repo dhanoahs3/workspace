@@ -1,0 +1,35 @@
+package buy.computer;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+
+public class Computer {
+	
+	
+	@Given("I want to buy  a PC")
+    public void buy_pc(){
+		System.out.println("I want to buy PC");
+	}
+	
+	@And("^PC should be of (.*)$")
+	public void pc_company(String company){
+		System.out.println("PC should be of "+company);
+	}
+	
+	@And("^It should be a (.*)$")
+	public void pc_type(String type){
+		System.out.println("It should be a "+type);
+	}
+	
+	@And("^It should be a (.*) of size (\\d+)$")
+	public void monitor_type(String monitor,int screenSize){
+		System.out.println("It should be a "+monitor+ "of size "+screenSize);
+	}
+	
+	@And("a {string} finish'")
+	public void finish(String type){
+		System.out.println("a "+ type + " finish");
+	}
+
+
+}

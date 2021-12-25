@@ -1,0 +1,22 @@
+package zoho.teststeps;
+
+import io.cucumber.java.en.Given;
+import zoho.context.TestContext;
+
+public class Session {
+	
+  public TestContext testContext;
+	 
+  public Session(TestContext testContext){
+	  System.out.println("<------------------ In the sessions constructor ------------------------>");
+	  this.testContext = testContext;
+  }
+	
+  @Given("I am logged in zoho.com")
+	public void zohoLogin(){
+	  System.out.println("I am logged in zoho.com");
+  }
+	
+	
+
+}

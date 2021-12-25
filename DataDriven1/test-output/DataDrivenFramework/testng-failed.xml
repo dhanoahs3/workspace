@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DataDrivenFramework]" parallel="tests">
+  <test name="LeadsTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.zohotestcases.LoginTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="finshReport"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.zohotestcases.LoginTest -->
+      <class name="com.qtpselenium.core.ddf.zohotestcases.LeadsTest">
+        <methods>
+          <include name="createLeadTest" invocation-numbers="0 3 1 2"/>
+          <include name="deleteLeadTest"/>
+          <include name="quitBrowser"/>
+          <include name="finshReport"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.zohotestcases.LeadsTest -->
+    </classes>
+  </test> <!-- LeadsTest(failed) -->
+  <test name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.core.ddf.zohotestcases.LoginTest">
+        <methods>
+          <include name="testA1" invocation-numbers="0 1"/>
+          <include name="quitBrowser"/>
+          <include name="finshReport"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.zohotestcases.LoginTest -->
+      <class name="com.qtpselenium.core.ddf.zohotestcases.LeadsTest">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="finshReport"/>
+        </methods>
+      </class> <!-- com.qtpselenium.core.ddf.zohotestcases.LeadsTest -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [DataDrivenFramework] -->

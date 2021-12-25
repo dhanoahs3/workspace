@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [REtailApp]">
+  <test name="AddCategory(failed)">
+    <classes>
+      <class name="com.retail.testcases.AddCategory">
+        <methods>
+          <include name="addCategory" invocation-numbers="0 1 2"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.retail.testcases.AddCategory -->
+      <class name="com.retail.testcases.LoginTest">
+        <methods>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.retail.testcases.LoginTest -->
+    </classes>
+  </test> <!-- AddCategory(failed) -->
+</suite> <!-- Failed suite [REtailApp] -->

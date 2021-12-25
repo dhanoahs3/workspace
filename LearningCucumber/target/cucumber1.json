@@ -1,0 +1,153 @@
+[
+  {
+    "line": 21,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-21T03:15:24.409Z",
+        "line": 25,
+        "name": "Buying a second hand car",
+        "description": "",
+        "id": "car-trading;buying-a-second-hand-car",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I go to buy car",
+            "match": {
+              "location": "search.SearchingCar.buy_car()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Car must of \u0027General motors\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027General motors\u0027",
+                  "offset": 12
+                }
+              ],
+              "location": "search.SearchingCar.car_make(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Car can be \u0027blue\u0027 in color",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027blue\u0027",
+                  "offset": 11
+                }
+              ],
+              "location": "search.SearchingCar.car_color(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I search for car",
+            "match": {
+              "location": "search.SearchingCar.search_car()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select city as \u0027Toronto\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Toronto\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "select.SelectingCar.select_city(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I should get \u0027blue\u0027 cars in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027blue\u0027",
+                  "offset": 13
+                }
+              ],
+              "location": "select.SelectingCar.result(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Cars must be atleast 3 years old",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 21
+                }
+              ],
+              "location": "select.SelectingCar.city_old(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Cars should not be damaged",
+            "match": {
+              "location": "select.SelectingCar.damaged()"
+            },
+            "keyword": "But "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@BuyCar"
+          }
+        ]
+      }
+    ],
+    "name": "Car Trading",
+    "description": "  I want to buy and sell",
+    "id": "car-trading",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/car.feature",
+    "tags": []
+  }
+]

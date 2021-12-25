@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Suite B</th></tr><tr><td><a href="#t0">StockTest</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">240,476</td><td></td><td></td></tr><tr><th colspan="7">Suite A</th></tr><tr class="stripe"><td><a href="#t1">PortfolioTest</a></td><td class="num">0</td><td class="num attn">2</td><td class="num attn">1</td><td class="num">241,899</td><td></td><td></td></tr><tr><th colspan="7">My suite</th></tr><tr><th>Total</th><th class="num">0</th><th class="num attn">2</th><th class="num attn">2</th><th class="num">482,375</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite B</th></tr></tbody><tbody id="t0"><tr><th colspan="4">StockTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qtpselenium.hybrid.stocksuite.StockTest</td><td><a href="#m0">AddStockTest</a></td><td rowspan="1">1613919265025</td><td rowspan="1">232967</td></tr></tbody><tbody><tr><th colspan="4">Suite A</th></tr></tbody><tbody id="t1"><tr><th colspan="4">PortfolioTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.qtpselenium.hybrid.portfoliosuite.PortfolioTest</td><td><a href="#m1">createPortfolioTest</a></td><td rowspan="1">1613919265025</td><td rowspan="1">239829</td></tr><tr><th colspan="4">PortfolioTest &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.qtpselenium.hybrid.portfoliosuite.PortfolioTest</td><td><a href="#m2">createPortfolioTest</a></td><td rowspan="1">1613919505435</td><td rowspan="1">4</td></tr><tr class="skippedeven"><td><a href="#m3">deletePortfolioTest</a></td><td rowspan="1">1613919505568</td><td rowspan="1">2</td></tr></tbody><tbody><tr><th colspan="4">My suite</th></tr></tbody></table><h2>StockTest</h2><h3 id="m0">com.qtpselenium.hybrid.stocksuite.StockTest#AddStockTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{Date=5/03/2018, PurchasePrice=200, PortfolioName=Ashi_9, Runmode=Y, Stock Name=Tata Steel Ltd, Quantity=100, Browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:57)
+	at com.qtpselenium.hybrid.stocksuite.StockTest.AddStockTest(StockTest.java:29)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Element not present//select[@id=&apos;portfolioid&apos;]
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:245)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.getObject(GenericKeywords.java:191)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.isElementInList(GenericKeywords.java:356)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.select(GenericKeywords.java:370)
+	... 27 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>PortfolioTest</h2><h3 id="m1">com.qtpselenium.hybrid.portfoliosuite.PortfolioTest#createPortfolioTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{PortfolioName=Abcdhghjg, Runmode=Y, Browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.reflect.InvocationTargetException
+	at com.qtpselenium.hybrid.driver.DriverScript.executeKeywords(DriverScript.java:57)
+	at com.qtpselenium.hybrid.portfoliosuite.PortfolioTest.createPortfolioTest(PortfolioTest.java:32)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.AssertionError: The following asserts failed:
+	Values Dont match. Got value as Ashi_9
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.reportFailure(GenericKeywords.java:245)
+	at com.qtpselenium.hybrid.keywords.GenericKeywords.waitTillSelectionToBe(GenericKeywords.java:344)
+	at com.qtpselenium.hybrid.keywords.AppKeywords.verifyPortfolio(AppKeywords.java:80)
+	... 27 more
+... Removed 23 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qtpselenium.hybrid.portfoliosuite.PortfolioTest#createPortfolioTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{PortfolioName=SamplePort1411, Runmode=N, Browser=Mozilla}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Skippinng the test as runmode is N
+	at com.qtpselenium.hybrid.portfoliosuite.PortfolioTest.createPortfolioTest(PortfolioTest.java:30)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.qtpselenium.hybrid.portfoliosuite.PortfolioTest#deletePortfolioTest</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{PortfolioName=SamplePort14, Runmode=Y, Browser=Chrome}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.SkipException: Runmode is set to NO
+	at com.qtpselenium.hybrid.portfoliosuite.PortfolioTest.deletePortfolioTest(PortfolioTest.java:47)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

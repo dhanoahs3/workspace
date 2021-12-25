@@ -1,0 +1,10 @@
+package pages;
+
+public class HomePage {
+	
+	public void goToLoginPage(){
+		// click on the link to go to sign-in page
+		
+	}
+
+}

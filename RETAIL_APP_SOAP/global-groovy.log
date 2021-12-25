@@ -1,0 +1,77 @@
+2020-12-20 09:53:32,042 INFO  [log] user
+2020-12-20 09:53:32,043 INFO  [log] whizdom
+2020-12-20 09:53:36,994 INFO  [log] session id is -> QwEy06eVGn
+2020-12-20 09:53:36,995 INFO  [log] The rol eof logged user  is -> customer
+2020-12-20 09:53:36,996 INFO  [log] The login status is -> loggedin
+2020-12-20 09:53:37,041 INFO  [log] user1
+2020-12-20 09:53:37,041 INFO  [log] wrong 
+2020-12-20 09:53:37,111 INFO  [log] session id is -> null
+2020-12-20 09:53:37,113 INFO  [log] The rol eof logged user  is -> null
+2020-12-20 09:53:37,115 INFO  [log] The login status is -> Not able to login
+2020-12-20 09:53:37,116 INFO  [log] u2
+2020-12-20 09:53:37,116 INFO  [log] bad
+2020-12-20 09:53:37,178 INFO  [log] session id is -> null
+2020-12-20 09:53:37,179 INFO  [log] The rol eof logged user  is -> null
+2020-12-20 09:53:37,180 INFO  [log] The login status is -> Not able to login
+2020-12-20 10:00:58,000 INFO  [log] user
+2020-12-20 10:00:58,000 INFO  [log] whizdom
+2020-12-20 10:00:59,212 INFO  [log] session id is -> o7SWQs1SOM
+2020-12-20 10:00:59,214 INFO  [log] The rol eof logged user  is -> customer
+2020-12-20 10:00:59,216 INFO  [log] The login status is -> loggedin
+2020-12-20 10:00:59,279 INFO  [log] user1
+2020-12-20 10:00:59,280 INFO  [log] wrong 
+2020-12-20 10:00:59,338 INFO  [log] session id is -> null
+2020-12-20 10:00:59,340 INFO  [log] The rol eof logged user  is -> null
+2020-12-20 10:00:59,342 INFO  [log] The login status is -> Not able to login
+2020-12-20 10:00:59,343 INFO  [log] u2
+2020-12-20 10:00:59,343 INFO  [log] bad
+2020-12-20 10:00:59,432 INFO  [log] session id is -> null
+2020-12-20 10:00:59,434 INFO  [log] The rol eof logged user  is -> null
+2020-12-20 10:00:59,435 INFO  [log] The login status is -> Not able to login
+2020-12-20 12:13:04,904 INFO  [log] session id is -> V9puQmAVfa
+2020-12-20 12:24:28,141 INFO  [log] session id is -> oFloQkRnn0
+2020-12-20 12:31:40,538 INFO  [log] session id is -> 1ZXgxz5eDW
+2020-12-20 12:32:33,335 INFO  [log] session id is -> It1si6VYOI
+2020-12-20 12:33:50,065 INFO  [log] session id is -> 4OKnEQ3Ipo
+2020-12-20 12:39:50,756 INFO  [log] session id is -> bOyi9fOUn8
+2020-12-20 12:40:45,035 INFO  [log] session id is -> o5R30936TX
+2020-12-20 12:50:51,210 INFO  [log] session id is -> WSLRYtQF8t
+2020-12-20 13:02:37,778 INFO  [log] session id is -> 3kjUV099sI
+2020-12-20 13:02:37,783 INFO  [log] role is -> customer
+2020-12-20 13:02:37,787 INFO  [log] loginstatus is -> loggedin
+2020-12-20 13:02:38,091 INFO  [log] session id is -> PLTZXYcBWD
+2020-12-20 13:02:38,095 INFO  [log] role is -> customer
+2020-12-20 13:02:38,099 INFO  [log] loginstatus is -> loggedin
+2020-12-20 13:06:58,381 INFO  [log] session id is -> jEThNZV34h
+2020-12-20 13:06:58,452 INFO  [log] role is -> customer
+2020-12-20 13:06:58,454 INFO  [log] loginstatus is -> loggedin
+2020-12-20 13:16:41,438 INFO  [log] session id is -> MS46b6jzmz
+2020-12-20 13:16:41,440 INFO  [log] role is -> customer
+2020-12-20 13:16:41,442 INFO  [log] loginstatus is -> loggedin
+2020-12-20 13:24:24,968 INFO  [log] session id is -> If0CMfm5ta
+2020-12-20 13:24:24,970 INFO  [log] role is -> customer
+2020-12-20 13:24:24,972 INFO  [log] loginstatus is -> loggedin
+2020-12-21 08:32:13,519 INFO  [log] session id is -> 8lg5xc6Bj1
+2020-12-21 08:32:13,588 INFO  [log] role is -> customer
+2020-12-21 08:32:13,591 INFO  [log] loginstatus is -> loggedin
+2020-12-21 08:33:32,398 INFO  [log] session id is -> tOEEljipbb
+2020-12-21 08:33:32,399 INFO  [log] role is -> customer
+2020-12-21 08:33:32,401 INFO  [log] loginstatus is -> loggedin
+2020-12-21 08:36:13,078 INFO  [log] session id is -> rbX2Ph8XFx
+2020-12-21 08:36:13,080 INFO  [log] role is -> customer
+2020-12-21 08:36:13,081 INFO  [log] loginstatus is -> loggedin
+2020-12-25 08:33:38,412 INFO  [log] session id is -> GP7F2QS2uo
+2020-12-25 08:33:38,422 INFO  [log] role is -> customer
+2020-12-25 08:33:38,423 INFO  [log] loginstatus is -> loggedin
+2020-12-25 09:05:19,943 INFO  [log] session id is -> KhpZNACADH
+2020-12-25 09:05:19,945 INFO  [log] role is -> customer
+2020-12-25 09:05:19,947 INFO  [log] loginstatus is -> loggedin
+2020-12-25 09:06:31,612 INFO  [log] session id is -> uDmOQ8yF1w
+2020-12-25 09:06:31,613 INFO  [log] role is -> customer
+2020-12-25 09:06:31,615 INFO  [log] loginstatus is -> loggedin
+2020-12-25 09:06:59,334 INFO  [log] session id is -> ktTNgXMprj
+2020-12-25 09:06:59,336 INFO  [log] role is -> customer
+2020-12-25 09:06:59,338 INFO  [log] loginstatus is -> loggedin
+2020-12-25 09:07:38,588 INFO  [log] session id is -> xktiv2s5vt
+2020-12-25 09:07:38,590 INFO  [log] role is -> customer
+2020-12-25 09:07:38,591 INFO  [log] loginstatus is -> loggedin

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.qtpselenium.core.ddf.testcases&apos; to &apos;DataDrivenProject2021/src/test/java&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenFramework&apos;&#x0D;&#x0A;- Destination element: &apos;DataDrivenProject2021/src/test/java&apos;&#x0D;&#x0A;- Original element: &apos;DataDrivenFramework/src/test/java/com.qtpselenium.core.ddf.testcases&apos;" description="Copy package" destination="=DataDrivenProject2021/src\/test\/java" element1="/src\/test\/java&lt;com.qtpselenium.core.ddf.testcases" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1618575177511" version="1.0"/>
+</session>

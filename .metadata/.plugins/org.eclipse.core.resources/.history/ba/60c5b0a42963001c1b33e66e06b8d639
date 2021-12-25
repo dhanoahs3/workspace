@@ -1,0 +1,23 @@
+package cnn;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+
+public class Cnn {
+	
+	@Given("I open browser")
+    public void openBrowser(){
+		System.out.println("I open browser");
+	}
+	
+	@And("go to {string}")
+    public void navigate(String url){
+		System.out.println("go to url "+url);
+	}
+	
+	@And("top menu should have the links {string}")
+    public void topMenu(String links){
+		System.out.println("top menu should have the links" +links);
+	}
+	
+}

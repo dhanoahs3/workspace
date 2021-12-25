@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite A]">
+  <test name="Lead Test(failed)">
+    <classes>
+      <class name="com.qtpselenium.zoho.project.testcases.PotentialTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.qtpselenium.zoho.project.testcases.PotentialTest -->
+      <class name="com.qtpselenium.zoho.project.testcases.LeadTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="createLeadTest" invocation-numbers="1"/>
+          <include name="start"/>
+          <include name="convertLeadTest" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- com.qtpselenium.zoho.project.testcases.LeadTest -->
+    </classes>
+  </test> <!-- Lead Test(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

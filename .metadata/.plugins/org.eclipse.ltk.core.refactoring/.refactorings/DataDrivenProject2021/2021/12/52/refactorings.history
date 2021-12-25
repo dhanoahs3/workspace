@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;ExtentManager.java&apos; to &apos;LearningCucumber/src/main/java/zoho.reports&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenProject2021&apos;&#x0D;&#x0A;- Destination element: &apos;LearningCucumber/src/main/java/zoho.reports&apos;&#x0D;&#x0A;- Original element: &apos;reporting.ExtentManager.java&apos;" description="Copy compilation unit" destination="=LearningCucumber/src\/main\/java&lt;zoho.reports" element1="/src\/main\/java&lt;reporting{ExtentManager.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1640361079124" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DataDrivenFramework">
+              <span class="suite-name border-failed">DataDrivenFramework</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DataDrivenFramework">
+                    <span>C:\workspace\DataDriven1\src\test\resources\testngzoho.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DataDrivenFramework">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DataDrivenFramework">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DataDrivenFramework">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DataDrivenFramework">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DataDrivenFramework">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DataDrivenFramework">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,  6 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="hide-methods failed suite-DataDrivenFramework"> (hide)</a> <!-- hide-methods failed suite-DataDrivenFramework -->
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="show-methods failed suite-DataDrivenFramework"> (show)</a> <!-- show-methods failed suite-DataDrivenFramework -->
+                    </span>
+                    <div class="method-list-content failed suite-DataDrivenFramework">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LoginTest" hash-for-method="testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome})">testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-DataDrivenFramework -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="hide-methods skipped suite-DataDrivenFramework"> (hide)</a> <!-- hide-methods skipped suite-DataDrivenFramework -->
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="show-methods skipped suite-DataDrivenFramework"> (show)</a> <!-- show-methods skipped suite-DataDrivenFramework -->
+                    </span>
+                    <div class="method-list-content skipped suite-DataDrivenFramework">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="createLeadTest({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla})">createLeadTest({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="createLeadTest({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome})">createLeadTest({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="createLeadTest({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla})">createLeadTest({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="deleteLeadTest">deleteLeadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LoginTest" hash-for-method="testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla})">testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-DataDrivenFramework -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="hide-methods passed suite-DataDrivenFramework"> (hide)</a> <!-- hide-methods passed suite-DataDrivenFramework -->
+                      <a href="#" panel-name="suite-DataDrivenFramework" class="show-methods passed suite-DataDrivenFramework"> (show)</a> <!-- show-methods passed suite-DataDrivenFramework -->
+                    </span>
+                    <div class="method-list-content passed suite-DataDrivenFramework">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-DataDrivenFramework" title="com.qtpselenium.core.ddf.zohotestcases.LeadsTest" hash-for-method="modifyLeadTest">modifyLeadTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-DataDrivenFramework -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-DataDrivenFramework" class="panel DataDrivenFramework">
+          <div class="suite-DataDrivenFramework-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qtpselenium.core.ddf.zohotestcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome})">
+                  </a> <!-- testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome})</span>
+                  <div class="stack-trace">java.lang.AssertionError: Login test has failed
+	at com.qtpseleniun.core.ddf.base.BaseTest.reportFailure(BaseTest.java:187)
+	at com.qtpseleniun.core.ddf.base.BaseTest.login(BaseTest.java:223)
+	at com.qtpselenium.core.ddf.zohotestcases.LoginTest.testA1(LoginTest.java:45)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 17 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DataDrivenFramework-class-failed -->
+          <div class="suite-DataDrivenFramework-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.core.ddf.zohotestcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla})">
+                  </a> <!-- testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla}) -->
+                  <span class="method-name">testA1</span>
+                  <span class="parameters">({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.qtpselenium.core.ddf.zohotestcases.LoginTest.testA1(LoginTest.java:40)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DataDrivenFramework-class-skipped -->
+          <div class="suite-DataDrivenFramework-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qtpselenium.core.ddf.zohotestcases.LeadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla})">
+                  </a> <!-- createLeadTest({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.qtpselenium.core.ddf.zohotestcases.LeadsTest.createLeadTest(LeadsTest.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome})">
+                  </a> <!-- createLeadTest({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.qtpselenium.core.ddf.zohotestcases.LeadsTest.createLeadTest(LeadsTest.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})">
+                  </a> <!-- createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.qtpselenium.core.ddf.zohotestcases.LeadsTest.createLeadTest(LeadsTest.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadTest({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla})">
+                  </a> <!-- createLeadTest({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla}) -->
+                  <span class="method-name">createLeadTest</span>
+                  <span class="parameters">({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla})</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as runmode is N
+	at com.qtpselenium.core.ddf.zohotestcases.LeadsTest.createLeadTest(LeadsTest.java:31)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteLeadTest">
+                  </a> <!-- deleteLeadTest -->
+                  <span class="method-name">deleteLeadTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method LeadsTest.deleteLeadTest()[pri:2, instance:com.qtpselenium.core.ddf.zohotestcases.LeadsTest@6121c9d6] depends on not successfully finished methods
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DataDrivenFramework-class-skipped -->
+          <div class="suite-DataDrivenFramework-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qtpselenium.core.ddf.zohotestcases.LeadsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="modifyLeadTest">
+                  </a> <!-- modifyLeadTest -->
+                  <span class="method-name">modifyLeadTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-DataDrivenFramework-class-passed -->
+        </div> <!-- panel DataDrivenFramework -->
+        <div panel-name="test-xml-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\workspace\DataDriven1\src\test\resources\testngzoho.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;DataDrivenFramework&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;LoginTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.core.ddf.zohotestcases.LoginTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginTest --&gt;
+  &lt;test name=&quot;LeadsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qtpselenium.core.ddf.zohotestcases.LeadsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LeadsTest --&gt;
+&lt;/suite&gt; &lt;!-- DataDrivenFramework --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DataDrivenFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LoginTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LeadsTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DataDrivenFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DataDrivenFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DataDrivenFramework');
+function tableData_DataDrivenFramework() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testA1')
+data.setCell(0, 2, 'com.qtpselenium.core.ddf.zohotestcases.LoginTest')
+data.setCell(0, 3, 119707);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testA1')
+data.setCell(1, 2, 'com.qtpselenium.core.ddf.zohotestcases.LoginTest')
+data.setCell(1, 3, 43);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createLeadTest')
+data.setCell(2, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(2, 3, 36);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createLeadTest')
+data.setCell(3, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(3, 3, 35);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createLeadTest')
+data.setCell(4, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(4, 3, 32);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createLeadTest')
+data.setCell(5, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(5, 3, 31);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'modifyLeadTest')
+data.setCell(6, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteLeadTest')
+data.setCell(7, 2, 'com.qtpselenium.core.ddf.zohotestcases.LeadsTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['DataDrivenFramework']= { tableData: data, tableDiv: 'times-div-DataDrivenFramework'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-DataDrivenFramework">
+              </div> <!-- times-div-DataDrivenFramework -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DataDrivenFramework</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DataDrivenFramework" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.core.ddf.zohotestcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=pass@1234, Runmode=N, Browser=Mozilla})</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.core.ddf.zohotestcases.LeadsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Sam, Runmode=N, LeadCompany=Sony, Browser=Mozilla})</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Wilson, Runmode=Y, LeadCompany=Samsung, Browser=Mozilla})</span>
+                <span class="method-start">6 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Sharma, Runmode=N, LeadCompany=Lenovo, Browser=Chrome})</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createLeadTest({LeadLastName=Watson, Runmode=N, LeadCompany=HP, Browser=Chrome})</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">45 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">49 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.core.ddf.zohotestcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">52 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testA1({Username=its.thakur@gmail.com, ExpectedResult=Y, Password=xxxxx, Runmode=Y, Browser=Chrome})</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.core.ddf.zohotestcases.LeadsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">794 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">895 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">979 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">modifyLeadTest</span>
+                <span class="method-start">988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">991 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">1074 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qtpselenium.core.ddf.zohotestcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">119764 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">finshReport</span>
+                <span class="method-start">120062 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

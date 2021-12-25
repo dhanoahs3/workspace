@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75" started-at="2021-01-04T14:07:13Z" finished-at="2021-01-04T14:07:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75" started-at="2021-01-04T14:07:13Z" finished-at="2021-01-04T14:07:13Z">
+      <class name="SoftAssertExample">
+        <test-method status="PASS" signature="beforeT()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="beforeT" is-config="true" duration-ms="18" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeT -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="beforeM" is-config="true" duration-ms="1" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="search()[pri:1, instance:SoftAssertExample@6a2bcfcb]" name="search" duration-ms="13" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterM()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="afterM" is-config="true" duration-ms="0" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="beforeM()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="beforeM" is-config="true" duration-ms="1" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeM -->
+        <test-method status="PASS" signature="AddToCart()[pri:2, instance:SoftAssertExample@6a2bcfcb]" name="AddToCart" duration-ms="3" started-at="2021-01-04T09:07:13Z" depends-on-methods="SoftAssertExample.search" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method status="PASS" signature="afterM()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="afterM" is-config="true" duration-ms="1" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterM -->
+        <test-method status="PASS" signature="afterT()[pri:0, instance:SoftAssertExample@6a2bcfcb]" name="afterT" is-config="true" duration-ms="0" started-at="2021-01-04T09:07:13Z" finished-at="2021-01-04T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterT -->
+      </class> <!-- SoftAssertExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

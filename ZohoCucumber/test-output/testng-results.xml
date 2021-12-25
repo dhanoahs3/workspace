@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3468" started-at="2021-12-24T21:05:10Z" finished-at="2021-12-24T21:05:14Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@185d8b6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="3468" started-at="2021-12-24T21:05:10Z" finished-at="2021-12-24T21:05:14Z">
+      <class name="zoho.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:zoho.runner.MyRunner@185d8b6]" name="setUpClass" is-config="true" duration-ms="951" started-at="2021-12-24T16:05:10Z" finished-at="2021-12-24T16:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:zoho.runner.MyRunner@185d8b6]" name="runScenario" duration-ms="2419" started-at="2021-12-24T16:05:11Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-24T16:05:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creation of a lead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Managing leads]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:zoho.runner.MyRunner@185d8b6]" name="tearDownClass" is-config="true" duration-ms="36" started-at="2021-12-24T16:05:14Z" finished-at="2021-12-24T16:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- zoho.runner.MyRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

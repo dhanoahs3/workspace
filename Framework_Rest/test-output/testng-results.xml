@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5944" started-at="2021-04-10T17:46:38Z" finished-at="2021-04-10T17:46:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5944" started-at="2021-04-10T17:46:38Z" finished-at="2021-04-10T17:46:44Z">
+      <class name="com.retail.testcases.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="init" is-config="true" duration-ms="2488" started-at="2021-04-10T13:46:38Z" finished-at="2021-04-10T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="before" is-config="true" duration-ms="198" started-at="2021-04-10T13:46:41Z" finished-at="2021-04-10T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="doLogin" duration-ms="2295" started-at="2021-04-10T13:46:41Z" data-provider="getData" finished-at="2021-04-10T13:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=admin, ExpectedLoginStatus=success, Password=whizdom, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="after" is-config="true" duration-ms="550" started-at="2021-04-10T13:46:43Z" finished-at="2021-04-10T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="before" is-config="true" duration-ms="1" started-at="2021-04-10T13:46:44Z" finished-at="2021-04-10T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="doLogin" duration-ms="51" started-at="2021-04-10T13:46:44Z" data-provider="getData" finished-at="2021-04-10T13:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=abhinvkaushik@gmail.comggg, ExpectedLoginStatus=success, Password=mac123, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="after" is-config="true" duration-ms="117" started-at="2021-04-10T13:46:44Z" finished-at="2021-04-10T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="doLogin(java.util.Hashtable)[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="doLogin" duration-ms="73" started-at="2021-04-10T13:46:44Z" data-provider="getData" finished-at="2021-04-10T13:46:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=abhinvkaushik@gmail.com, ExpectedLoginStatus=success, Password=mac123, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="before" is-config="true" duration-ms="0" started-at="2021-04-10T13:46:44Z" finished-at="2021-04-10T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.retail.testcases.LoginTest@6adede5]" name="after" is-config="true" duration-ms="105" started-at="2021-04-10T13:46:44Z" finished-at="2021-04-10T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- com.retail.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

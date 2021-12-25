@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name ="DataDrivenFramework">
+
+<test name ="DummyTestA">
+<classes>
+<class name = "com.qtpselenium.core.ddf.testcases.DummyTestA">
+</class>
+</classes>
+</test>
+
+<test name ="DummyTestB">
+<classes>
+<class name = "com.qtpselenium.core.ddf.testcases.DummyTestB">
+</class>
+</classes>
+</test>
+</suite>

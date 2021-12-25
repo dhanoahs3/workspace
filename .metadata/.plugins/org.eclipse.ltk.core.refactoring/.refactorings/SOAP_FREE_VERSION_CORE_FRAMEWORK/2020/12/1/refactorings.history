@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;SOAPUI_FREE_VERSION_CORE_SOAP_PROTOCOL/src&apos;&#x0D;&#x0A;- Original project: &apos;SOAP_FREE_VERSION_CORE_FRAMEWORK&apos;&#x0D;&#x0A;- Destination element: &apos;SOAPUI_FREE_VERSION_CORE_SOAP_PROTOCOL/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     SOAP_FREE_VERSION_CORE_FRAMEWORK/src/com.soapuitutorial.util&#x0D;&#x0A;     SOAP_FREE_VERSION_CORE_FRAMEWORK/src/com.soapuitutorial.script" description="Copy packages" destination="=SOAPUI_FREE_VERSION_CORE_SOAP_PROTOCOL/src" element1="/src&lt;com.soapuitutorial.util" element2="/src&lt;com.soapuitutorial.script" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1609166180295" version="1.0"/>
+</session>

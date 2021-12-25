@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DataDrivenFramework" duration-ms="146" started-at="2021-01-25T13:23:13Z" finished-at="2021-01-25T13:23:13Z">
+    <groups>
+    </groups>
+    <test name="DummyTestA" duration-ms="81" started-at="2021-01-25T13:23:13Z" finished-at="2021-01-25T13:23:13Z">
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestA">
+        <test-method status="PASS" signature="testA1()[pri:1, instance:com.qtpselenium.core.ddf.testcases.DummyTestA@2344fc66]" name="testA1" duration-ms="26" started-at="2021-01-25T08:23:13Z" finished-at="2021-01-25T08:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA1 -->
+        <test-method status="PASS" signature="testA2()[pri:1, instance:com.qtpselenium.core.ddf.testcases.DummyTestA@2344fc66]" name="testA2" duration-ms="3" started-at="2021-01-25T08:23:13Z" depends-on-methods="com.qtpselenium.core.ddf.testcases.DummyTestA.testA1" finished-at="2021-01-25T08:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA2 -->
+        <test-method status="PASS" signature="testA3()[pri:1, instance:com.qtpselenium.core.ddf.testcases.DummyTestA@2344fc66]" name="testA3" duration-ms="2" started-at="2021-01-25T08:23:13Z" depends-on-methods="com.qtpselenium.core.ddf.testcases.DummyTestA.testA2" finished-at="2021-01-25T08:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA3 -->
+      </class> <!-- com.qtpselenium.core.ddf.testcases.DummyTestA -->
+    </test> <!-- DummyTestA -->
+    <test name="DummyTestB" duration-ms="7" started-at="2021-01-25T13:23:13Z" finished-at="2021-01-25T13:23:13Z">
+      <class name="com.qtpselenium.core.ddf.testcases.DummyTestB">
+        <test-method status="PASS" signature="testB1()[pri:0, instance:com.qtpselenium.core.ddf.testcases.DummyTestB@3a82f6ef]" name="testB1" duration-ms="2" started-at="2021-01-25T08:23:13Z" finished-at="2021-01-25T08:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testB1 -->
+      </class> <!-- com.qtpselenium.core.ddf.testcases.DummyTestB -->
+    </test> <!-- DummyTestB -->
+  </suite> <!-- DataDrivenFramework -->
+</testng-results>

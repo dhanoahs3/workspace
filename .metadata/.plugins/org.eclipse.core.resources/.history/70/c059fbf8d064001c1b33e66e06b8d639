@@ -1,0 +1,14 @@
+package zoho.teststeps;
+
+import io.cucumber.java.en.When;
+
+public class TopMenu {
+	
+	
+	@When("I click on {string} in top menu")
+	 public void verifyLeadsPage(){
+	}
+	
+	
+
+}

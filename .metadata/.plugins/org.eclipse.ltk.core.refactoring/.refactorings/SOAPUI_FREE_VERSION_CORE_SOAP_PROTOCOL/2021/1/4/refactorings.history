@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;Framework_Rest/src/test/java/com.retail.util&apos;&#x0D;&#x0A;- Original project: &apos;SOAPUI_FREE_VERSION_CORE_SOAP_PROTOCOL&apos;&#x0D;&#x0A;- Destination element: &apos;Framework_Rest/src/test/java/com.retail.util&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.soapuitutorial.util.Zip.java&#x0D;&#x0A;     com.soapuitutorial.util.ZipAndMail.java&#x0D;&#x0A;     com.soapuitutorial.util.SendMail.java" description="Copy compilation units" destination="=Framework_Rest/src\/test\/java&lt;com.retail.util" element1="/src&lt;com.soapuitutorial.util{Zip.java" element2="/src&lt;com.soapuitutorial.util{ZipAndMail.java" element3="/src&lt;com.soapuitutorial.util{SendMail.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1611419198526" units="3" version="1.0"/>
+</session>

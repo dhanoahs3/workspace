@@ -1,0 +1,41 @@
+package search;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.But;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class SearchingCar {
+
+	@Given("I go to buy car")
+	public void buy_car(){
+		System.out.println("I want to buy car");
+	}
+	
+	@And("Car must of Ford motors")
+	public void car_make(){
+		System.out.println("Car must of Ford motors");
+	}
+	
+	@And("Car must be white in color")
+	public void car_color(){
+		System.out.println("Car must be white in color");
+	}
+	
+	@When("I search for car")
+	public void search_car(){
+		System.out.println("I search for car");
+	}
+	
+	
+	
+	
+	
+	
+	 
+	
+	  
+	
+}
+

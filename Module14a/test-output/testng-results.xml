@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3876" started-at="2021-03-13T13:39:06Z" finished-at="2021-03-13T13:39:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3876" started-at="2021-03-13T13:39:06Z" finished-at="2021-03-13T13:39:10Z">
+      <class name="FilterExample2">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:FilterExample2@29774679]" name="beforeEachMethod" is-config="true" duration-ms="23" started-at="2021-03-13T08:39:06Z" finished-at="2021-03-13T08:39:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachMethod -->
+        <test-method status="PASS" signature="getStudentData()[pri:0, instance:FilterExample2@29774679]" name="getStudentData" duration-ms="3809" started-at="2021-03-13T08:39:07Z" finished-at="2021-03-13T08:39:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getStudentData -->
+      </class> <!-- FilterExample2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

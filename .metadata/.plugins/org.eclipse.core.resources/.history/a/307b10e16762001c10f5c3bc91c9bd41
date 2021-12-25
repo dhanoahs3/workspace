@@ -1,0 +1,18 @@
+package runner;
+
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+		features= {"src/test/resources/"},
+		glue = {"search","select","buy.compputer"},
+		plugin= {"html:target/site/cucumber-reports.html"},
+        tags = @BuyComputer
+		
+)
+
+public class MyRunner  extends AbstractTestNGCucumberTests {
+	
+	
+		
+}

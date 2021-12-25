@@ -1,0 +1,21 @@
+package runner;
+
+import org.testng.annotations.Test;
+import io.cucumber.testng.CucumberOptions;
+import io.cucumber.testng.CucumberOptions.SnippetType;
+
+@CucumberOptions(
+		dryRun=false,
+		strict=true,
+		monochrome=true,
+		features= {"src/test/resources/"},
+		glue = {"search","select"},
+		plugin= {"html:target/site/cucumber-html"}
+		
+)
+
+public class MyRunner {
+	
+	
+		
+}

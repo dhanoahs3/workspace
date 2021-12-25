@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7611" started-at="2021-03-15T22:35:52Z" finished-at="2021-03-15T22:36:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7611" started-at="2021-03-15T22:35:52Z" finished-at="2021-03-15T22:36:00Z">
+      <class name="downloadvalidator.FileDownloadExample">
+        <test-method status="PASS" signature="verifyDownloadTest()[pri:0, instance:downloadvalidator.FileDownloadExample@26be92ad]" name="verifyDownloadTest" duration-ms="7566" started-at="2021-03-15T18:35:52Z" finished-at="2021-03-15T18:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDownloadTest -->
+      </class> <!-- downloadvalidator.FileDownloadExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

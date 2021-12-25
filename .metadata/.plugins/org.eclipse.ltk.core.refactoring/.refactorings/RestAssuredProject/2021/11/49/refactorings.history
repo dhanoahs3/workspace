@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;postreqexample2.Courses&apos; to &apos;Course&apos;&#x0D;&#x0A;- Original project: &apos;RestAssuredProject&apos;&#x0D;&#x0A;- Original element: &apos;postreqexample2.Courses&apos;&#x0D;&#x0A;- Renamed element: &apos;postreqexample2.Course&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Courses&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;postreqexample2{Courses.java[Courses" matchStrategy="1" name="Course" qualified="false" references="true" similarDeclarations="false" stamp="1638237313570" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,52 @@
+package zoho.teststeps;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.When;
+import zoho.context.TestContext;
+
+public class Leads {
+	
+	TestContext testContext;
+	 
+	public Leads(TestContext testContext){
+		System.out.println("In the leads constructor");
+		this.testContext = testContext;
+    }
+	
+//	@Before
+//	public void before(Scenario scenario){
+//		System.out.println("Starting of scenario " +scenario.getName());
+//		testContext.createScenario(scenario.getName());
+//	}
+//	
+//	@After
+//	public void after(Scenario scenario){
+//		System.out.println("Ending of scenario " +scenario.getName());
+//		testContext.endScenario();
+//	}
+//	
+//
+	@When("I go to {string} page")
+	 public void verifyLeadsPage(String pageName){
+		System.out.println("I go to "+pageName+ " page");
+	}
+	
+	@And("enter and submit lead details")
+		public void submitDetails(){
+		System.out.println("enter and submit lead details");
+	}
+	
+	@And("I verify leads details")
+		public void verifyDetails(){
+		System.out.println("I verify leads details");
+	}
+	
+	@And("Lead should be present inside the grid")
+		public void verifyLeadCreation(){
+		System.out.println("Lead should be present inside the grid");
+	}
+	
+}

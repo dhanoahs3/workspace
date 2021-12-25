@@ -1,0 +1,81 @@
+package com.retail.testcases;
+
+import static io.restassured.RestAssured.given;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
+
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.Status;
+import com.retail.base.*;
+
+import io.restassured.RestAssured;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.http.ContentType;
+import io.restassured.response.Response;
+
+public class AddProduct extends BaseTest{
+	
+	
+@Test(dataProvider = "getData")
+
+public void addProduct(Hashtable<String,String> data){
+	
+	System.out.println(data.toString());
+	
+	List<Product> Category = new ArrayList<Product>();
+	
+	
+    String categoryName = data.get("CategoryName");
+	String productName = data.get("ProductName");
+	String price = data.get("Price");
+	String quantity = data.get("Quantity");
+
+    Product product = new Product();
+	product.setName(productName);
+	product.setQuantity(quantity);
+	product.setPrice(price);
+	
+	List<Product> productList  = new ArrayList<Product>();
+	productList.add(product);
+	
+	Map<String,List<Product>> productDetails = new HashMap<String,List<Product>>();
+	productDetails.put(categoryName,productList);
+
+	
+	ProductPojo p = new ProductPojo();
+	
+	
+	p.setProductDetails(productDetails);
+	
+	/*
+	CategoryCreator cc = new CategoryCreator();
+	
+	CategoryList catlist = cc.addCategory(categoryName);
+	
+	
+   
+	Map<String,List<Product>> productdetailsMap  = catlist.addProduct(product);
+	
+	prod.setProductDetails(productdetailsMap);
+	*/
+    Response resp = given().filter(new RequestLoggingFilter(requestCapture)).contentType(ContentType.JSON).headers("sessionid",sessionId).log().body().body(p).post();
+   
+    
+//    Response resp = given().filter(new RequestLoggingFilter(requestCapture)).contentType(ContentType.JSON).headers("sessionid",sessionId).log().all().when().body(c).post();
+
+  /*  System.out.println("-----------------------Produt response-----------------------------");
+    System.out.println(resp.prettyPrint());
+    System.out.println("-----------------------Produt response-----------------------------");*/
+    
+    test.log(Status.INFO,resp.prettyPrint());
+	
+    addRequestToLink(this.getClass().getSimpleName()+" Request",this.getClass().getSimpleName()+" Request-"+iteration,requestWriter.toString());
+
+}
+
+}

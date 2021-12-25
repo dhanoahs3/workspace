@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="999" started-at="2021-01-29T14:30:25Z" finished-at="2021-01-29T14:30:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="999" started-at="2021-01-29T14:30:25Z" finished-at="2021-01-29T14:30:26Z">
+      <class name="TestA">
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a2bcfcb]" name="testA" duration-ms="19" started-at="2021-01-29T09:30:26Z" data-provider="getData" finished-at="2021-01-29T09:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C2, Col1=C1, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a2bcfcb]" name="testA" duration-ms="2" started-at="2021-01-29T09:30:26Z" data-provider="getData" finished-at="2021-01-29T09:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C4, Col1=C3, Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a2bcfcb]" name="testA" duration-ms="2" started-at="2021-01-29T09:30:26Z" data-provider="getData" finished-at="2021-01-29T09:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C6, Col1=C5, Runmode=Y}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testA(java.util.Hashtable)[pri:0, instance:TestA@6a2bcfcb]" name="testA" duration-ms="3" started-at="2021-01-29T09:30:26Z" data-provider="getData" finished-at="2021-01-29T09:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Col2=C8, Col1=C7, Runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+      </class> <!-- TestA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

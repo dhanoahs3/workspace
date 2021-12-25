@@ -1,0 +1,29 @@
+package select;
+
+import cucumber.api.java.en.And;
+import cucumber.api.java.en.But;
+import cucumber.api.java.en.Then;
+
+public class SelectingCar {
+	@And("I select city as tokyo")
+	public void select_city(){
+		System.out.println("And I select city as tokyo");
+	}
+	
+	@Then("I should get white cars in results")
+	public void result(){
+		System.out.println("I should get white cars in result");
+	}
+	
+   @And("Cars must be atleast 2 years old")
+   public void city_old(){
+	   System.out.println("Cars must be atleast 2 years old");
+   }
+   
+	@But("Cars should not be damaged")
+	public void damaged(){
+	System.out.println("Cars must be atleast 2 years old");
+	}
+	
+
+}

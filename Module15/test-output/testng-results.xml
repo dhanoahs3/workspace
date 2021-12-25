@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5930" started-at="2021-03-14T12:57:17Z" finished-at="2021-03-14T12:57:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5930" started-at="2021-03-14T12:57:17Z" finished-at="2021-03-14T12:57:23Z">
+      <class name="jsonvalidations.JsonValidatorJava">
+        <test-method status="PASS" signature="test001()[pri:0, instance:jsonvalidations.JsonValidatorJava@66a3ffec]" name="test001" duration-ms="5879" started-at="2021-03-14T08:57:18Z" finished-at="2021-03-14T08:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test001 -->
+      </class> <!-- jsonvalidations.JsonValidatorJava -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

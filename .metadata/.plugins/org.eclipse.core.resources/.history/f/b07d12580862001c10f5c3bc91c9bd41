@@ -1,0 +1,19 @@
+package runner;
+
+
+
+
+
+
+@io.cucumber.testng.CucumberOptions(
+		features= {"src/test/resources/"},
+		glue = {"search","select"},
+        plugin= {"html:target/site/cucumber-html"}
+		
+)
+
+public class MyRunner  extends io.cucumber.testng.AbstractTestNGCucumberTests {
+	
+	
+		
+}

@@ -1,0 +1,32 @@
+package postreqarray;
+
+import org.json.simple.JSONObject;
+
+import org.testng.annotations.Test;
+
+public class PostReqArrayExample {
+
+	@Test
+	
+	public void createJsonArray(){
+		
+		JSONObject jsonObject  =  new JSONObject();
+		jsonObject.put("name","Hs");
+		jsonObject.put("age","33");
+		System.out.println(jsonObject);
+
+		
+		
+		/*RestAssured.baseURI = "http://localhost";
+		RestAssured.port = 8080;
+		RestAssured.basePath = "/student";
+		
+		 given().contentType(ContentType.JSON).get("/18").then().log().headers();
+		 given().contentType(ContentType.JSON).get("/list").then().log().ifError();
+*/
+		
+	
+  }
+}
+
+

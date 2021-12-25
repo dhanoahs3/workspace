@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="listeners.MyTestNGListener"/>
+  </listeners>
+    
+
+  <test name="All Tests">
+  <parameter name = "action" value ="pay@hotel"/>
+    <classes>
+      <class name="testcases.BookingSearch">
+      <methods>
+         <exclude name="selectRoom" />
+        
+      </methods>
+      </class>
+      <class name="testcases.PaymentManager"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

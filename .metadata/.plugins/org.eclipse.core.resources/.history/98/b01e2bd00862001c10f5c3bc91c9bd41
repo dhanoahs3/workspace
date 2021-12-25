@@ -1,0 +1,46 @@
+package search;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+
+public class SearchingCar {
+	
+	@io.cucumber.java.ParameterType("(.+?)")
+	public String colors(String allColors){
+		System.out.println(allColors);
+		return "hello";
+	}
+	
+
+
+	@Given("I go to buy car")
+      public void buy_car(){
+		System.out.println("I want to buy car");
+	}
+	
+	@And("Car must of {string}")
+	public void car_make(String make){
+		System.out.println("Car must of "+make);
+	}
+	
+	@And("Car can be {string} in color")
+	public void car_color(String color){
+		System.out.println("Car must be "+color +"  in color");
+	}
+	
+	@When("I search for car")
+	public void search_car(){
+		System.out.println("I search for car");
+	}
+	
+	
+	
+	
+	
+	
+	 
+	
+	  
+	
+}
+

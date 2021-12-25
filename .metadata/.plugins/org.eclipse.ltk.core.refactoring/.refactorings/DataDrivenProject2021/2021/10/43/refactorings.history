@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Change method &apos;public void com.rediff.ddf.base.GenericKeywords.wait(int time)&apos; to &apos;public void threadWait(int time)&apos;&#x0D;&#x0A;- Original project: &apos;DataDrivenProject2021&apos;&#x0D;&#x0A;- Original element: &apos;com.rediff.ddf.base.GenericKeywords.wait(...)&apos;&#x0D;&#x0A;- New name: &apos;threadWait&apos;" delegate="false" deprecate="true" description="Change method &apos;wait&apos;" flags="589830" id="org.eclipse.jdt.ui.change.method.signature" input="/src\/test\/java&lt;com.rediff.ddf.base{GenericKeywords.java[GenericKeywords~wait~I" name="threadWait" parameter1="int time 0 int time false" stamp="1634995581984" version="1.0"/>
+</session>

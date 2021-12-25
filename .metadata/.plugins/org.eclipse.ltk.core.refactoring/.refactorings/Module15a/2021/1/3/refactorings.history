@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hamcrestExample&apos; to &apos;hamcrestexample&apos;&#x0D;&#x0A;- Original project: &apos;Module15a&apos;&#x0D;&#x0A;- Original element: &apos;Module15a/src/test/java/hamcrestExample&apos;&#x0D;&#x0A;- Renamed element: &apos;Module15a/src/test/java/hamcrestexample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hamcrestExample&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java&lt;hamcrestExample" name="hamcrestexample" qualified="false" references="true" stamp="1610583458465" textual="false" version="1.0"/>
+</session>

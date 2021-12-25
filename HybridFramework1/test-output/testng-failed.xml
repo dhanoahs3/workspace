@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite A]">
+  <test name="PortfolioTest(failed)">
+    <classes>
+      <class name="com.qtpselenium.hybrid.portfoliosuite.PortfolioTest">
+        <methods>
+          <include name="deletePortfolioTest" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="createPortfolioTest" invocation-numbers="0 1"/>
+          <include name="init"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.portfoliosuite.PortfolioTest -->
+    </classes>
+  </test> <!-- PortfolioTest(failed) -->
+</suite> <!-- Failed suite [Suite A] -->
